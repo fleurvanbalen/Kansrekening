@@ -37,7 +37,7 @@ plt.legend()
 plt.title('Simulatie normaalverdeling met $n$ aantal stochasten $X_k$ ~ Un(0,1)')
 plt.xlabel('$Z_n$')
 plt.ylabel('Frequentie')
-#plt
+plt.show()
 
 
 # %%
@@ -64,7 +64,7 @@ plt.scatter(n, ks_stats)
 plt.title('KS-statistieken tegen n aantal stochasten $X_k$ ~ Un(0,1)')
 plt.xlabel('$n$')
 plt.ylabel('KS-statistiek')
-#plt
+plt.show()
 
 
 # %%
@@ -100,7 +100,7 @@ plt.legend()
 plt.title('Simulatie normaalverdeling met $n$ aantal stochasten $X_k$ ~ Exp(1)')
 plt.xlabel('$Z_n$')
 plt.ylabel('Frequentie')
-#plt
+plt.show()
 
 
 # %%
@@ -121,7 +121,7 @@ plt.grid()
 plt.title('KS-statistieken tegen n aantal stochasten $X_k$ ~ Exp(1)')
 plt.xlabel('$n$')
 plt.ylabel('KS-statistiek')
-#plt
+plt.show()
 
 # Scatterplot met KS-statestieken voor beide verdelingen:
 plt.scatter(n, ks_stats, label='$X_k$ ~ Un(0,1)')
@@ -131,7 +131,7 @@ plt.grid()
 plt.title('KS-statistieken tegen n aantal stochasten $X_k$')
 plt.xlabel('$n$')
 plt.ylabel('KS-statistiek')
-#plt
+plt.show()
 
 
 # %%
@@ -186,7 +186,7 @@ plt.legend()
 plt.title('Simulatie normaalverdeling met $n$ aantal stochasten $X_k$ ~ Un({0,1})')
 plt.xlabel('$Z_n$')
 plt.ylabel('Frequentie')
-#plt
+plt.show()
 
 
 # %%
@@ -205,7 +205,7 @@ plt.scatter(n, ks_stats_drk)
 plt.title('KS-statistieken tegen n aantal stochasten $X_k$ ~ un(')
 plt.xlabel('$n$')
 plt.ylabel('KS-statistiek')
-#plt
+plt.show()
 
 
 # %%
@@ -218,7 +218,7 @@ plt.scatter(n, ks_stats_drk)
 plt.title('KS-statistieken tegen n aantal stochasten $X_k$ ~ $Exp(1)$')
 plt.xlabel('$n$')
 plt.ylabel('KS-statistiek')
-#plt
+plt.show()
 
 
 # %%
